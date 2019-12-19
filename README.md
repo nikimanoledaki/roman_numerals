@@ -2,10 +2,14 @@
 
 Roman Numerals is an exercise completed during Week 2 of the Makers Academy course. 
 
-## Purpose
-The focus of this exercise was to set up a project in Ruby that passed the required RSpec unit tests. This exercise was timed - it was completed in 15 minutes.
-
-## Unit tests
-The following test were created with RSpec:
-1. It converts number into numeral
-2. It raises error if input is not an integer
+## Process
+* set up a project in Ruby with lib and rspec libraries
+* initialize RSpec
+* initialize Github repository
+* create a unit test that converts Arabic numbers to Roman numerals
+* create a method that pass this unit test
+* commit
+* create a unit test that raises an error if the input is not an integer
+* create another method to pass this unit tests
+* commit
+* refactor to ensure that each method follows the Single Responsibility Principle
