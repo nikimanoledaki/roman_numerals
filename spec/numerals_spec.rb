@@ -8,5 +8,5 @@ describe RomanNumeral do
     it "raises error if input is not an integer" do
       expect{ subject.convert("II") }.to raise_error "Not an integer"
     end
-    
+
 end
