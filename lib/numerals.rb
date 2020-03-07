@@ -1,7 +1,7 @@
 class RomanNumeral
     def convert(number)
-    fail "Not an integer" if integer?(number) == false
-    to_numeral(number)
+        fail "Not an integer" if integer?(number) == false
+        to_numeral(number)
     end
 
     def to_numeral(number)
